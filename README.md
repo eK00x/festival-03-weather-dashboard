@@ -8,19 +8,22 @@ This project was developed as the third milestone within the "Web Technologies" 
 
 ## Architecture & Folder Structure
 The application follows a client-server pattern:
-- /client: Frontend source code (HTML, JavaScript).
-- /server: Node.js server handling API requests, including JSON data files.
-- package.json: Manages dependencies and scripts for both client and server.
+- **/client**: Frontend source code (HTML, JavaScript).
+- **/server**: Node.js server handling API requests, including JSON data files.
+- **package.json**: Manages dependencies and scripts for both client and server.
 
 ## Setup & Execution
 1. Ensure Node.js and npm are installed on your machine.
 2. Download and unzip the project folder.
 3. Open the root directory in your IDE (e.g., VS Code).
-4. Run npm install in the terminal to install all necessary dependencies (including cors).
+4. Run `npm install` in the terminal to install all necessary dependencies (including `cors`).
 5. Open two terminal instances:
-- Terminal 1: Run npm run server to start the backend.
-- Terminal 2: Run npm run client to start the frontend.
+    - Terminal 1: Run `npm run server` to start the backend.
+    - Terminal 2: Run `npm run client` to start the frontend.
 6. The application will open automatically in your default browser. Enjoy! 😊
 
 ## Testing
-The application was tested on Brave Browser, Firefox, and Chrome.
+The application was tested on:
+- Brave Browser
+- Firefox
+- Chrome
